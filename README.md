@@ -13,7 +13,7 @@ This sample demonstrates [Azure RTOS threadx](https://azure.com/rtos) on Raspber
 
 ## Prerequisites
 
-1. [Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/)
+1. [Raspberry Pi Pico](https://www.raspberrypi.org/products/raspberry-pi-pico/) board
 
 2. A terminal emulator (such as [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [Tera Term](https://ttssh2.osdn.jp/index.html.en) to display the output.
 
@@ -21,7 +21,7 @@ This sample demonstrates [Azure RTOS threadx](https://azure.com/rtos) on Raspber
 
 ## Build and run the sample
 
-1. Clone this repository to the same folder of pico-sdk.
+1. Clone this repository and sitting alongside the pico-sdk directory. (This project is an external project depends on pico-sdk)
    
    ```
    git clone https://github.com/xiongyu0523/Azure-RTOS-on-Raspberry-Pi-Pico-RP2040

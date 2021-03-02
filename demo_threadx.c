@@ -184,6 +184,10 @@ void    thread_0_entry(ULONG thread_input)
 
 UINT    status;
 
+    // LED OFF
+    gpio_init(PICO_DEFAULT_LED_PIN);
+    gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
+    gpio_put(PICO_DEFAULT_LED_PIN, 0);
 
     /* This thread simply sits in while-forever-sleep loop.  */
     while(1)
@@ -199,7 +203,7 @@ UINT    status;
         }
 
         /* Print results.  */
-        printf("**** Azure Sphere ThreadX Demonstration **** (c) 2006-2020 \n\n");
+        printf("**** ThreadX Demonstration on Raspberry Pi Pico **** \n\n");
         printf("           thread 0 events sent:          %lu\n", thread_0_counter);
         printf("           thread 1 messages sent:        %lu\n", thread_1_counter);
         printf("           thread 2 messages received:    %lu\n", thread_2_counter);

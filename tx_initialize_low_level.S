@@ -168,13 +168,10 @@ _tx_initialize_low_level:
 @ /* System Tick timer interrupt handler */
     .global  __tx_SysTickHandler
     .global  SysTick_Handler
-    .global  isr_systick
     .thumb_func
 __tx_SysTickHandler:
     .thumb_func
 SysTick_Handler:
-    .thumb_func
-isr_systick:
 @ VOID SysTick_Handler (VOID)
 @ {
 @

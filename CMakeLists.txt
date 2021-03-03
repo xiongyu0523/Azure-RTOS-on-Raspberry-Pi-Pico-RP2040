@@ -6,6 +6,9 @@ project(Azure-RTOS-on-Raspberry-Pi-Pico-RP2040)
 
 pico_sdk_init()
 
+add_definitions(-DPendSV_Handler=isr_pendsv)
+add_definitions(-DSysTick_Handler=isr_systick)
+
 add_executable(${PROJECT_NAME} main.c tx_initialize_low_level.S demo_threadx.c)
 
 pico_enable_stdio_usb(${PROJECT_NAME} 1)

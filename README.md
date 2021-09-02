@@ -21,13 +21,13 @@ This sample demonstrates [Azure RTOS threadx](https://azure.com/rtos) on Raspber
 
 ## Build and run the sample
 
-1. Clone this repository (and threadx as a submodule) alongside the pico-sdk directory. (This project is an external project depends on pico-sdk)
+1. Clone this repository (and threadx as a submodule) alongside the pico-sdk (>= 1.2.0) directory. (This project is an external project depends on pico-sdk)
    
    ```
    git clone --recurse-submodules https://github.com/xiongyu0523/Azure-RTOS-on-Raspberry-Pi-Pico-RP2040
    ```
 
-2. Open a Developer command prompt for VS2019 and go to the cloned project to build
+2. Open a **Developer command prompt** for VS2019 and go to the cloned project to build
    
    ```
    cd Azure-RTOS-on-Azure-Sphere-Mediatek-MT3620

@@ -59,3 +59,7 @@ ThreadX Demo
            thread 6 mutex obtained:       268
            thread 7 mutex obtained:       268
 ```
+
+## Hardware License
+
+To use Azure RTOS on commerical project, please see [LICENSE.txt](./LICENSE.txt) and [LICENSED-HARDWARE.txt](./LICENSED-HARDWARE.txt).
